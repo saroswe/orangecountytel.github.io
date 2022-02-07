@@ -46,7 +46,7 @@ hr.content-divider {
 }
 
 #parallax-1 {
-  background: url(https://source.unsplash.com/featured/?nature);
+  background-image: url(../img/photo-1446630073557-fca43d580fbe.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ hr.content-divider {
 }
 
 #parallax-2 {
-  background: url(https://source.unsplash.com/featured/?computers);
+  background: url(../img/photo-1518770660439-4636190af475.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ hr.content-divider {
 }
 
 #parallax-3 {
-  background: url(https://source.unsplash.com/featured/?city);
+  background-image: url(../img/photo-1513622790541-eaa84d356909.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,6 +82,19 @@ hr.content-divider {
 
 #parallax-3 hr {
   background: hotpink;
+}
+
+#parallax-4 {
+  background-image: url(../img/photo-1526025202335-cf944dc3f799.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid mediumseagreen;
+}
+
+#parallax-4 hr {
+  background: mediumseagreen;
 }
 
 .label {
@@ -96,4 +109,8 @@ input {
 
 input::placeholder {
   color: white !important;
+}
+
+.has-background {
+  background-color:rgba(0,0,0,0.4);
 }
