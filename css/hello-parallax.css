@@ -51,11 +51,11 @@ hr.content-divider {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 10px solid coral;
+  border-top: 10px solid #f27e1b;
 }
 
 #parallax-1 hr {
-  background: coral;
+  background: #f27e1b;
 }
 
 #parallax-2 {
@@ -113,4 +113,12 @@ input::placeholder {
 
 .has-background {
   background-color:rgba(0,0,0,0.4);
+}
+
+.logo {
+  max-height: 200px;
+}
+
+.main-title {
+  color: #f27e1b;
 }
